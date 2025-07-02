@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Preview
 
-## Getting Started
+(Images Here)
 
-First, run the development server:
+## What is this?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+If you're unfamiliar with the Pokémon franchise, a Pokédex is an index for fictional creatures called Pokémon.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hence Poké + index = Pokédex.    
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In the games and television series they're commonly depicted as small devices that store Pokémon attributes, type, evolution, and other data.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How do I use this application?
 
-## Learn More
+Simple! Find Pokémon using either the search bar or filtering system.
 
-To learn more about Next.js, take a look at the following resources:
+## Why did you build this?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The first day I came across PokéAPI I was blown away by the amount of data available. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A lot of ideas came to mind, and after brainstorming I landed on the idea of creating a Pokédex with an emphasis on a clean and simple UI/UX.
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Searching (fuzzy find)
+- Filter
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Pipeline
+
+- Home Page History (maybe)
+- TBD
+- TBD
+- TBD
+
+
