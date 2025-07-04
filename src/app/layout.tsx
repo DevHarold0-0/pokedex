@@ -25,22 +25,22 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   return (
     <html lang="en" className={`${robotoFlex.variable} antialiased`} {...mantineHtmlProps}>
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="auto" />
       </head>
       <body suppressHydrationWarning>
-        <header>
-          <Header />
-        </header>
+        <MantineProvider defaultColorScheme="auto">
+          <header>
+            <Header />
+          </header>
 
-        <MantineProvider>
-          <main>
-            {children}
-          </main>
+            <main>
+              {children}
+            </main>
+          
+          <footer>
+            <Footer />
+          </footer>
         </MantineProvider>
-        
-        <footer>
-          <Footer />
-        </footer>
       </body>
     </html>
   );
